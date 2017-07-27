@@ -13,47 +13,41 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
 
-.site-header {
+#site-header {
+  display: flex;
   background: #FFFFFF;
-  display:flex;
+  flex-flow: row nowrap;
   flex: 1 1 auto;
-  justify-content:space-between;
-  border-bottom: 2px solid;
-  /*margin: auto;*/
-
-
+  border-bottom: 1px solid;
+  align-content: flex-end;
 
 }
 
-.headerLogo {
+.headerLogo img{
   display:flex;
-  padding-right: 50%;
+  align-items:flex-end;
   justify-content: flex-start;
-
 }
 .header-nav{
-  display:inline-block;
-  background: #968772;
+  display: flex;
+  margin: auto 15% auto 15%;
+  flex: 1 1 auto;
+  align-content: flex-end;
+
 }
 
 .header-nav ul{
-    list-style: none;
-    display:flex;
-    flex: 1 1 auto;
-    justify-content: space-between;
-    align-content: flex-end;
-    margin: 0;
-    padding: 0;
-
-  }
-
-.header-nav li{
   display:flex;
+  list-style: none;
+  flex: 1 1 auto;
+  margin: auto;
   text-align: center;
-  /*align-content: center;*/
-  justify-content: center;
-  height: 25%;
-  width: 25%;
-  border-radius: 10px;
-  background: #968772;
+  justify-content: space-between;
+
+
+}
+.header-nav a{
+  font-size: 25px;
+  text-decoration-color:#2B2F26;
+
 }
