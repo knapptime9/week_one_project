@@ -13,6 +13,7 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
 
+/*MAIN HEADER FORMATTING*/
 #site-header {
   display: flex;
   background: #FFFFFF;
@@ -20,9 +21,7 @@ Input Border Bottom (Focus): #967343 */
   flex: 1 1 auto;
   border-bottom: 1px solid;
   align-content: flex-end;
-
 }
-
 .headerLogo img{
   display:flex;
   align-items:flex-end;
@@ -33,9 +32,8 @@ Input Border Bottom (Focus): #967343 */
   margin: auto 15% auto 15%;
   flex: 1 1 auto;
   align-content: flex-end;
-
+  font-size: 1em;
 }
-
 .header-nav ul{
   display:flex;
   list-style: none;
@@ -43,11 +41,34 @@ Input Border Bottom (Focus): #967343 */
   margin: auto;
   text-align: center;
   justify-content: space-between;
-
-
 }
 .header-nav a{
-  font-size: 25px;
+  font-size: 1.5em;
   text-decoration-color:#2B2F26;
+}
+/*===========================================*/
+/*ABOUT PAGE FORMATTING*/
+body.aboutBody{
+  font-size:1.15em;
+  background:#F2F1E8
+}
+.wrapper{
+  display: flex;
+  flex:1 1 auto;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 0 5% 0 5%;
+}
 
+.aboutTitle{
+  display:flex;
+  margin:0 0 0 0;
+  justify-content:center;
+}
+
+img.birdhouse{
+  height: 80px;
+  width: 90px;
+  float: left;
+  padding-right: 10px;
 }
