@@ -107,8 +107,8 @@ h3.aboutHistory_title, p.aboutHistory_para{
 }
 
 .aboutDivider{
-  width:120%;
-  left:-40px;
+  width:100%;
+  /*left:-40px;*/
   position:relative;
   background-image:url("images/background-3.jpg");
   font-size: 1.5em;
