@@ -108,7 +108,6 @@ h3.aboutHistory_title, p.aboutHistory_para{
 
 .aboutDivider{
   width:100%;
-  /*left:-40px;*/
   position:relative;
   background-image:url("images/background-3.jpg");
   font-size: 1.5em;
@@ -244,23 +243,43 @@ background: #F1EADD;
   height: 250px;
 }
 
-
-
-/*.productGrid{
-  display:inline-flex;
-  flex-flow:row wrap;
-  flex:0 1 auto;
-}
-
-.productGrid img{
+/*===================================================================*/
+/*BEGIN NEWSLETTER FORMATTING*/
+#newsletterWrapper{
   display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    height: 300px;
-    width: 285px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+  flex-flow: column nowrap;
+  background-image:url("images/background-2.jpg");
+
 }
-.productGrid img:nth-child(0){
-  width:=400px;
-    flex-grow:2;*/
+
+#newsletter-box{
+  height: 60%;
+  width: 60%;
+  margin: 20% auto;
+  background-color:white;
+  padding-bottom: 5%;
+}
+.newsletterTitle, .newsletterTitle2{
+  text-align:center;
+
+}
+
+#nameInput{
+  position: absolute;
+  left: 30%;
+  top: 52%;
+  font-size: xx-large;
+
+}
+#emailInput{
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  font-size: xx-large;
+}
+#signupButton{
+  font-size: x-large;
+position: absolute;
+left: 42%;
+top: 67%;
+}
